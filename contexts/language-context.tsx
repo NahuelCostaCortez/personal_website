@@ -133,7 +133,7 @@ const translations = {
     "teaching.algorithmics.judges": "LeetCode, Codeforces, AtCoder",
     "teaching.algorithmics.programmingLanguages": "C++, Python, Java",
     "teaching.algorithmics.prerequisites": "Programming, Mathematics",
-    "teaching.algorithmics.algorithmTemplates": "Algorithm Templates",
+    "teaching.algorithmics.algorithmTemplates": "Course Materials",
     "teaching.algorithmics.codeRepository": "Code Repository",
     "teaching.algorithmics.practiceProblems": "Practice Problems",
     "teaching.algorithmics.programmingContests": "Programming Contests",
@@ -218,6 +218,8 @@ const translations = {
     "teaching.innovationProjects.labels.role": "Role",
     "teaching.innovationProjects.labels.publications": "Publications",
     "teaching.innovationProjects.actions.viewPublication": "View publication",
+    "teaching.innovationProjects.actions.rolemember": "Team member",
+    "teaching.innovationProjects.actions.roleleader": "Principal investigator",
 
     // Project: UO-177745
     "teaching.innovationProjects.UO177745.title": "Automated Moodle quiz creation and optimization using learning analytics, application to learning programming languages",
@@ -228,12 +230,14 @@ const translations = {
     // About Section
     "about.title": "ABOUT ME",
     "about.bio1":
-      "Hello, my name is *Nahuel* (it means Jaguar in Mapuche language), I'm an ML researcher and professor at the University of Oviedo.",
+      "Hello, my name is *Nahuel* (it means jaguar in Mapuche language), I'm an ML researcher and professor at the University of Oviedo.",
     "about.bio2":
-      "My research focuses on maximizing the potential of Machine Learning to anticipate potential outcomes and support decision-making in monitoring systems, particularly in scenarios with limited data. I've worked both on the *biomedical field*, on problems such as arrhythmia detection and classification, analysis of X-ray images and functional PET images from patients in deep coma; as well as in the *industrial domain*, doing monitoring and prognostics for lithium-ion batteries, aircraft engines, and jet fans. I am particularly interested in developing models that are robust and effective, but also interpretable and easily accessible to non-ML/AI experts.",
+      "My research focuses on maximizing the potential of Machine Learning to anticipate potential outcomes and support decision-making in monitoring systems, particularly in scenarios with limited data. I work both on the *biomedical field*, as well as in the *industrial domain*. I am particularly interested in developing models that are robust and effective, but also interpretable and easily accessible to non-ML/AI experts.",
     "about.bio3":
+      //I've worked both on the *biomedical field*, on problems such as arrhythmia detection and classification, analysis of X-ray images and functional PET images from patients in deep coma; as well as in the *industrial domain*, doing monitoring and prognostics for lithium-ion batteries, aircraft engines, and jet fans
       //"As an educator, I aim to convey my enthusiasm to students and provide them with the necessary tools to define and pursue their own goals. <br><br> I also love to spread the word about my work and about AI in general, that's why *I offer outreach activities (workshops, courses, talks) as well as training (primarily tailored for companies) focused on AI.* <br><br> 💬 Feel free to reach out to me if you are interested in my research, looking for colaboration, or are interested in some talks or training for your company/organization.",
-	  "I love to spread the word about my work and about AI in general, that's why I offer outreach services *(workshops, courses, talks)* as well as *training (primarily tailored for companies) focused on AI.* <br><br> 💬 Feel free to reach out to me if you are interested in my research, looking for colaboration, or are interested in some talks or training for your company/organization.",
+	  //"I love to spread the word about my work and about AI in general, that's why I offer outreach services *(workshops, courses, talks)* as well as *training (primarily tailored for companies) focused on AI.* <br><br> 💬 Feel free to reach out to me if you are interested in my research, looking for colaboration, or are interested in some talks or training for your company/organization.",
+    "💬 I love sharing my work and insights on AI with a wider audience. If you’re interested in workshops, talks, or tailored training for your company or organization, feel free to reach out. You can explore the *Services* section for an overview of what I offer or contact me directly to discuss how we can create something that fits your needs.",
     "about.links.title": "Links",
     "about.cta": "BOOK A MEETING WITH ME",
 
@@ -258,7 +262,7 @@ const translations = {
     "experience.montpellier.position": "Visiting Researcher",
     "experience.montpellier.period": "May 2023 - Jul 2023",
     "experience.montpellier.location": "Montpellier",
-    "experience.montpellier.description": "Research and development of automatic learning diagnostic methods for positron emission tomography (PET) images at the Laboratory of Computer Science, Robotics and Microelectronics of Montpellier (LIRMM).",
+    "experience.montpellier.description": "Research and development of automatic learning diagnostic methods for positron emission tomography (PET) images at the Laboratoire d'informatique, de robotique et de microélectronique de Montpellier (LIRMM).",
     "experience.lecturer.company": "University of Oviedo",
     "experience.lecturer.position": "Lecturer",
     "experience.lecturer.period": "Feb 2021 - Aug 2023",
@@ -266,19 +270,19 @@ const translations = {
     "experience.lecturer.description": "Subjects I taught:\n-Business Intelligence\n-Data Visualization\n-Algorithmics\n-Operating Systems\n-Databases\n-Programming methodology\n-Introduction to programming",
 	"experience.assistant.company": "University of Oviedo",
     "experience.assistant.position": "Assistant Professor",
-    "experience.assistant.period": "Sep 2024 - Present",
-    "experience.assistant.location": "Oviedo",
+    "experience.assistant.period": "Sep 2023 - Present",
+    "experience.assistant.location": "Gijón",
     "experience.assistant.description": "Subjects I teach:\n- Generative models\n- Business Intelligence\n- Data Visualization\n- Algorithmics",
 	"experience.ceu.company": "CEU San Pablo University",
     "experience.ceu.position": "Visiting Professor",
     "experience.ceu.period": "Jan 2025 - Mar 2025",
     "experience.ceu.location": "Madrid",
-    "experience.ceu.description": "ECG analysis with Large Vision Language Models",
+    "experience.ceu.description": "ECG analysis with Large Vision Language models",
 	"experience.alberta.company": "University of Alberta",
     "experience.alberta.position": "Visiting Professor",
     "experience.alberta.period": "April 2025 - July 2025",
     "experience.alberta.location": "Edmonton",
-    "experience.alberta.description": "Multimodal longitudinal analysis of EHR and ECGs",
+    "experience.alberta.description": "Multimodal longitudinal analysis of EHR and ECG",
 
 
     // Research Section
@@ -291,32 +295,30 @@ const translations = {
     
     // Research Topics
     "research.topics.title": "Research Areas",
-    "research.topics.subtitle": "Main topics and problems I work with",
+    "research.topics.subtitle": "Main topics and fields I work with",
     "research.topics.industrial.title": "Industrial",
     "research.topics.industrial.emoji": "🏭",
     "research.topics.industrial.problems": [
       "Battery health monitoring and prognostics",
       "Aircraft engine condition monitoring", 
       "Jet fan predictive maintenance",
-      "Industrial IoT systems",
-      "Energy management optimization"
+      "Physical systems modeling with digital twins",
     ],
     "research.topics.medical.title": "Medical",
     "research.topics.medical.emoji": "🏥",
     "research.topics.medical.problems": [
-      "Cardiovascular disease prediction",
-      "ECG analysis and arrhythmia detection",
+      "ECG analysis and cardiovascular disease prediction",
       "Medical image analysis (X-ray, PET scans)",
       "Electronic Health Records (EHR) analysis",
-      "Neurological disorder diagnosis"
+      "Multimodal and Longitudinal patient data modeling",
     ],
     "research.topics.others.title": "Others",
     "research.topics.others.emoji": "🔬",
     "research.topics.others.problems": [
       "Machine learning with limited data",
       "Explainable AI methods",
-      "Multimodal data fusion",
-      "Robust model development",
+      "Chatbots and Retrieval-Augmented Generation (RAG)",
+      "Agent-based AI systems",
       "Educational AI applications"
     ],
     "research.projects.title": "Research Projects",
@@ -368,7 +370,7 @@ const translations = {
         "title": "Artificial Intelligence applied to Data Analysis and Process Modeling",
 		"code": "FUO-354-23",
 		"type": "Industry, TOTAL ENERGIES, S.A.",
-        "description": "Project framed within the Total Energies Chair of Data Analytics and Artificial Intelligence. Projects developed with student participation were addressed, including: RAG with chatbots for internal company documentation, rainfall and river flow modelling for reservoir management, predictive models for demand forecasting, survival models for customer churning and retention, etc.",
+        "description": "Project framed within the Total Energies Chair of Data Analytics and Artificial Intelligence. Projects developed with student participation were addressed, including: RAG with chatbots for internal company documentation, rainfall and river flow modelling for reservoir management, predictive models for demand forecasting, survival models for customer churning and retention...",
 		"date": "2022-Present",
         "participation": "Team member"
       },
@@ -406,7 +408,7 @@ const translations = {
     "services.noArticles": "No entries found. Check back soon!",
     "services.viewAll": "View Latest 10 Entries",
     "services.currentCourses": "Current Courses",
-    "services.currentCoursesSubtitle": "Discover the latest teachingal offerings designed to advance your skills in AI and technology.",
+    "services.currentCoursesSubtitle": "Discover the latest educational offerings designed to advance your skills in AI and technology.",
     "services.pastExperiences": "Past Experiences",
     "services.pastExperiencesSubtitle": "Here you can find some of the past courses, workshops and talks I have given.",
     "services.searchPast": "Search past entries...",
@@ -556,7 +558,7 @@ const translations = {
     "teaching.algorithmics.judges": "LeetCode, Codeforces, AtCoder",
     "teaching.algorithmics.programmingLanguages": "C++, Python, Java",
     "teaching.algorithmics.prerequisites": "Programación, Matemáticas",
-    "teaching.algorithmics.algorithmTemplates": "Plantillas de Algoritmos",
+    "teaching.algorithmics.algorithmTemplates": "Materiales del Curso",
     "teaching.algorithmics.codeRepository": "Repositorio de Código",
     "teaching.algorithmics.practiceProblems": "Problemas de Práctica",
     "teaching.algorithmics.programmingContests": "Concursos de Programación",
@@ -564,9 +566,9 @@ const translations = {
 
     // Business Intelligence Cours
     "teaching.businessIntelligence.title": "Minería de Texto",
-    "teaching.businessIntelligence.description": "Esta parte del curso de \"Inteligencia de Negocios\" se enfoca en la minería de texto. Aquí, aprenderás a extraer insights de texto a través de técnicas como TF-IDF, word2vec, y Transformers.",
-    "teaching.businessIntelligence.overview": "Este curso de minería de texto proporciona a los estudiantes el conocimiento y las habilidades necesarias para diseñar, implementar y gestionar soluciones de minería de texto. Los estudiantes aprenderán cómo extraer valor de los datos a través de modelado de datos adecuado, técnicas de almacenamiento y análisis avanzado.",
-    "teaching.businessIntelligence.overview2": "El curso cubre toda la minería de texto desde la recolección y almacenamiento de datos hasta la visualización y reportes, con experiencia práctica usando herramientas estándar de la industria incluyendo Pytorch, Hugging Face y Python para análisis de datos.",
+    "teaching.businessIntelligence.description": "Esta parte del curso de \"Inteligencia de Negocio\" se enfoca en la minería de texto. Aquí, aprenderás a extraer insights de texto a través de técnicas como TF-IDF, word2vec, y Transformers.",
+    "teaching.businessIntelligence.overview": "Este curso proporciona a los estudiantes el conocimiento y las habilidades necesarias para diseñar, implementar y gestionar soluciones de minería de texto. Los estudiantes aprenderán cómo extraer valor de los datos a través de modelado de datos adecuado, técnicas de almacenamiento y análisis avanzado.",
+    "teaching.businessIntelligence.overview2": "El curso cubre toda la minería de texto desde la recolección y almacenamiento de datos hasta la visualización y reportes, con experiencia práctica usando herramientas estándar de la industria incluyendo Pytorch y Hugging Face para análisis de datos.",
     "teaching.businessIntelligence.objective1": "Entender los fundamentos de la minería de texto",
     "teaching.businessIntelligence.objective2": "Aplicar técnicas de minería de texto a problemas del mundo real",
     "teaching.businessIntelligence.objective3": "Evaluar y comparar diferentes técnicas de minería de texto",
@@ -641,6 +643,8 @@ const translations = {
     "teaching.innovationProjects.labels.role": "Rol",
     "teaching.innovationProjects.labels.publications": "Publicaciones",
     "teaching.innovationProjects.actions.viewPublication": "Ver publicación",
+    "teaching.innovationProjects.actions.rolemember": "Miembro del equipo",
+    "teaching.innovationProjects.actions.roleleader": "Investigador principal",
 
     // Project: UO-177745
     "teaching.innovationProjects.UO177745.title": "Generación automática y optimización de cuestionarios en Moodle usando analítica del aprendizaje, aplicación al aprendizaje de lenguajes de programación",
@@ -651,12 +655,13 @@ const translations = {
     // About Section
     "about.title": "ACERCA DE MÍ",
     "about.bio1":
-      "Hola! Mi nombre es Nahuel (significa Jaguar en lengua Mapuche), soy investigador de IA y profesor en la Universidad de Oviedo.",
+      "Hola! Mi nombre es Nahuel (significa jaguar en lengua Mapuche), soy investigador de IA y profesor en la Universidad de Oviedo.",
     "about.bio2":
-      "Mi investigación se centra en maximizar el potencial de la IA para anticipar potenciales resultados futuros y apoyar la toma de decisiones en sistemas de monitoreo, particularmente en escenarios con datos limitados. He trabajado tanto en el ámbito biomédico (en problemas como la detección y clasificación de arritmias, el análisis de imágenes de rayos X y PET funcionales de pacientes en coma profundo), así como en el ámbito industrial, monitorizando y pronósticando baterías de iones de litio, motores de aviación y ventiladores de túneles. Estoy especialmente interesado en desarrollar modelos que sean robustos y efectivos, pero también interpretables y accesibles para personas no especialistas en IA.",
+      "Mi investigación se centra en maximizar el potencial de la IA para anticipar potenciales resultados futuros y apoyar la toma de decisiones en sistemas de monitorización, particularmente en escenarios con datos limitados. Trabajo tanto en el *campo biomédico* así como en el *ámbito industrial*. Estoy especialmente interesado en desarrollar modelos que sean robustos y efectivos, pero también interpretables y accesibles para personas no especialistas en IA.",
     "about.bio3":
       //"Como docente, mi objetivo es transmitir mi entusiasmo a mis estudiantes y proporcionarles las herramientas necesarias para definir y perseguir sus propios objetivos. <br><br> También me encanta hablar sobre mi trabajo y sobre la IA en general, por eso *ofrezco actividades de difusión (talleres, cursos, charlas), así como formación (principalmente orientada para empresas) enfocada en IA.* <br><br> 💬 No dudes en contactarme si estás interesado en mi investigación, buscando colaboración, o estás interesado en alguna charla o formación para tu empresa/organización."
-	  "Me encanta divulgar sobre mi trabajo y la IA en general, por eso *ofrezco servicios de difusión (talleres, cursos, charlas), así como formación (principalmente orientada para empresas) enfocados en IA.* <br><br> 💬 No dudes en contactarme si estás interesado en mi investigación, buscando colaboración, o estás interesado en alguna charla o formación para tu empresa/organización.",
+	  //"Me encanta divulgar sobre mi trabajo y la IA en general, por eso *ofrezco servicios de difusión (talleres, cursos, charlas), así como formación (principalmente orientada para empresas) enfocados en IA.* <br><br> 💬 No dudes en contactarme si estás interesado en mi investigación, buscando colaboración, o estás interesado en alguna charla o formación para tu empresa/organización.",
+    "💬 Me encanta divulgar sobre mi trabajo y la IA en general. Si estás interesado en algún curso, charla o formación específica para tu empresa/organización no dudes en contactarme. Puedes explorar la sección de *Servicios* para obtener una visión general de lo que ofrezco o contactar directamente conmigo para discutir cómo podeamos crear algo que se ajuste a tus necesidades.",
     "about.links.title": "Enlaces",
     "about.cta": "RESERVA UNA REUNIÓN CONMIGO",
 
@@ -676,32 +681,32 @@ const translations = {
     "experience.hawaii.position": "Estancia de investigación",
     "experience.hawaii.period": "May 2022 - Sept 2022",
     "experience.hawaii.location": "Honolulu",
-    "experience.hawaii.description": "Desarrollo de herramientas de IA para diagnóstico y pronóstico de baterías de iones de litio en el Instituto Natural de Energía de Hawái (HNEI).",
+    "experience.hawaii.description": "Investigación y desarrollo de herramientas de ML para diagnóstico y pronóstico de baterías de iones de litio en el Instituto Natural de Energía de Hawái (HNEI).",
     "experience.montpellier.company": "Université de Montpellier",
     "experience.montpellier.position": "Estancia de investigación",
     "experience.montpellier.period": "May 2023 - Jul 2023",
     "experience.montpellier.location": "Montpellier",
-    "experience.montpellier.description": "Desarrollo de métodos de aprendizaje automático para diagnóstico y pronóstico de imágenes de tomografía por emisión de positrones (PET) en el Laboratorio de Informática, Robótica y Microelectrónica de Montpellier (LIRMM).",
+    "experience.montpellier.description": "Desarrollo de métodos de aprendizaje automático para diagnóstico y pronóstico de imágenes de tomografía por emisión de positrones (PET) en el Laboratoire d'informatique, de robotique et de microélectronique de Montpellier (LIRMM).",
     "experience.lecturer.company": "Universidad de Oviedo",
-    "experience.lecturer.position": "Lecturer",
+    "experience.lecturer.position": "Profesor sustituto",
     "experience.lecturer.period": "Feb 2021 - Aug 2023",
     "experience.lecturer.location": "Oviedo",
-    "experience.lecturer.description": "Asignaturas que enseño:\n\n-Inteligencia de Negocios\n-Visualización de Datos\n-Algoritmos\n-Sistemas Operativos\n-Bases de Datos\n-Metodología de Programación\n-Introducción a la Programación",
+    "experience.lecturer.description": "Asignaturas que impartí:\n-Inteligencia de Negocio\n-Visualización de Datos\n-Algoritmia\n-Sistemas Operativos\n-Bases de Datos\n-Metodología de la Programación\n-Introducción a la Programación",
 	"experience.assistant.company": "Universidad de Oviedo",
-    "experience.assistant.position": "Asistente de investigación",
-    "experience.assistant.period": "Sep 2024 - Present",
+    "experience.assistant.position": "Profesor AYD",
+    "experience.assistant.period": "Sep 2023 - Actualidad",
     "experience.assistant.location": "Oviedo",
-    "experience.assistant.description": "Asignaturas que enseño:\n-Modelos Generativos\n-Inteligencia de Negocios\n-Visualización de Datos\n-Algoritmos",
+    "experience.assistant.description": "Asignaturas que imparto:\n-Modelos Generativos\n-Inteligencia de Negocio\n-Visualización de Datos\n-Algoritmia",
 	"experience.ceu.company": "Universidad CEU San Pablo",
     "experience.ceu.position": "Estancia de investigación",
     "experience.ceu.period": "Jan 2025 - Mar 2025",
     "experience.ceu.location": "Madrid",
-    "experience.ceu.description": "Análisis de ECG con Modelos de Lenguaje de Vision Grande",
+    "experience.ceu.description": "Análisis de ECG con grandes modelos multimodales",
 	"experience.alberta.company": "University of Alberta",
     "experience.alberta.position": "Estancia de investigación",
     "experience.alberta.period": "April 2025 - July 2025",
     "experience.alberta.location": "Edmonton",
-    "experience.alberta.description": "Análisis multimodal longitudinal de EHR y ECGs",
+    "experience.alberta.description": "Análisis multimodal longitudinal de EHR y ECG",
 
     // Research Section
     "research.title": "Investigación",
@@ -713,33 +718,31 @@ const translations = {
     
     // Research Topics
     "research.topics.title": "Áreas de Investigación",
-    "research.topics.subtitle": "Principales temas y problemas en los que trabajo",
+    "research.topics.subtitle": "Principales temas y ámbitos en los que trabajo",
     "research.topics.industrial.title": "Industrial",
     "research.topics.industrial.emoji": "🏭",
     "research.topics.industrial.problems": [
       "Monitoreo y pronóstico de salud de baterías",
-      "Monitoreo de condición de motores de aeronaves",
-      "Mantenimiento predictivo de ventiladores",
-      "Sistemas IoT industriales",
-      "Optimización de gestión energética"
+      "Monitoreo de condición de motores de aviación",
+      "Mantenimiento predictivo de ventiladores de chorro",
+      "Modelado de sistemas físicos mediante gemelos digitales"
     ],
     "research.topics.medical.title": "Medicina",
     "research.topics.medical.emoji": "🏥",
     "research.topics.medical.problems": [
-      "Predicción de enfermedades cardiovasculares",
-      "Análisis de ECG y detección de arritmias",
+      "Análisis de ECG y detección de enfermedades cardiovasculares",
       "Análisis de imágenes médicas (rayos X, PET)",
-      "Análisis de Historiales Clínicos Electrónicos",
-      "Diagnóstico de trastornos neurológicos"
+      "Análisis de Historiales Clínicos Electrónicos (EHR)",
+      "Modelado multimodal y longitudinal",
     ],
     "research.topics.others.title": "Otros",
     "research.topics.others.emoji": "🔬",
     "research.topics.others.problems": [
       "Aprendizaje automático con datos limitados",
       "Métodos de IA explicable",
-      "Fusión de datos multimodales",
-      "Desarrollo de modelos robustos",
-      "Aplicaciones educativas de IA"
+      "Chatbots y recuperación de información",
+      "Agentes inteligentes",
+      "Aplicaciones educativas con IA"
     ],
     "research.projects.title": "Proyectos de Investigación",
     "research.projects.subtitle": "Proyectos de investigación pasados y actuales",
@@ -782,7 +785,7 @@ const translations = {
 			"title": "Estimación Precisa de Estado de Salud y Vida Útil Restante en Tecnologías de Litio Avanzadas",
 			"code": "MCI-23-PID2022-141792OB-I00",
 			"type": "National",
-			"description": "Proyecto liderado por mi colega y amigo David Anseán. Estamos trabajando en entrenar modelos de aprendizaje automático con datos simulados desde baterías digitales de gemelos como 'Alawa, y adaptarlas a datos reales para estimar el estado de salud y la vida útil restante de baterías de iones de litio.",
+			"description": "Proyecto liderado por mi compañero y amigo David Anseán. Estamos trabajando en entrenar modelos de aprendizaje automático con datos de baterías simulados con gemelos digitales como 'Alawa, y adaptarlos a datos reales para estimar el estado de salud y la vida útil restante de baterías de iones de litio.",
 			"date": "2023-Present",
 			"participation": "Collaborating researcher"
 		  },
@@ -790,7 +793,7 @@ const translations = {
 			"title": "Inteligencia Artificial aplicada al Análisis de Datos y Modelado de Procesos",
 			"code": "FUO-354-23",
 			"type": "Industry, TOTAL ENERGIES, S.A.",
-			"description": "Proyecto enmarcado dentro de la Cátedra Total Energies de Análisis de Datos e Inteligencia Artificial. Se abordaron proyectos desarrollados con participación de estudiantes, entre los que se incluyen: RAG con chatbots para documentación interna de la empresa, modelado de pluviosidad y caudal de ríos para gestión de embalses, modelos predictivos para pronóstico de demanda, modelos de supervivencia para churning y retención de clientes, etc.",
+			"description": "Proyecto enmarcado dentro de la Cátedra Total Energies de Análisis de Datos e Inteligencia Artificial. Se abordaron proyectos desarrollados con participación de estudiantes, entre los que se incluyen: RAG con chatbots para documentación interna de la empresa, modelado de pluviosidad y caudal de ríos para gestión de embalses, modelos predictivos para pronóstico de demanda, modelos de supervivencia para churning y retención de clientes...",
 			"date": "2022-Present",
 			"participation": "Team member"
 		  },
@@ -806,7 +809,7 @@ const translations = {
 			"title": "Monitoreo de Condición Inteligente y Explicable de Ventiladores de Chorro",
 			"code": "FUO-231-22",
 			"type": "Industry, TALLERES ZITRÓN, S.A.",
-			"description": "Desarrollo de un sistema de monitorización de condición que puede integrarse en ventiladores de jet para monitorear su estado y detectar posibles anomalías.",
+			"description": "Desarrollo de un sistema de monitorización de condición que puede integrarse en ventiladores de chorro para monitorizar su estado y detectar posibles anomalías.",
 			"date": "2022-2023",
 			"participation": "Team member"
 		  },
@@ -841,7 +844,7 @@ const translations = {
     "footer.portfolio": "PORTAFOLIO",
     "footer.teaching.design": "Diseño de Productos",
     "footer.about": "ACERCA DE MÍ",
-    "footer.about.bio": "Biografía Corta",
+    "footer.about.bio": "Biografía",
 	"footer.about.research": "Investigación",
 	"footer.about.teaching": "Docencia",
     "footer.about.talks": "Charlas y Talleres",

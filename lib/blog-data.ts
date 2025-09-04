@@ -65,7 +65,7 @@ export const blogData: BlogPost[] = [
       es: "..."
     },
     date: "2024-09-01",
-    image: "/images/blog/cities-datalex.png",
+    image: "/images/blog/cities-datalex.jpg",
     category: "project", //"experience",
     readTime: "8 min read",
     tags: {

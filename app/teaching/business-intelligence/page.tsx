@@ -81,7 +81,7 @@ export default function BusinessIntelligencePage() {
               </Card>
 
               <Card className="glass p-8">
-                <h3 className="text-2xl font-bold text-white mb-6">Learning Objectives</h3>
+                <h3 className="text-2xl font-bold text-white mb-6">{t("teaching.learningObjectives")}</h3>
                 <ul className="space-y-3 text-white/75">
                   <li className="flex items-start">
                     <span className="text-green-400 mr-3">•</span>

@@ -89,10 +89,6 @@ export default function GenerativeNetworksPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-400 mr-3">•</span>
-                    {t("teaching.generativeNetworks.objective2")}
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-400 mr-3">•</span>
                     {t("teaching.generativeNetworks.objective3")}
                   </li>
                   <li className="flex items-start">

@@ -78,7 +78,7 @@ export default function ExperienceSection() {
 		period: t("experience.hawaii.period"),
 		location: t("experience.hawaii.location"),
 		description: t("experience.hawaii.description"),
-		logoSrc: "/icons/experience/hawaii.svg"
+		logoSrc: "/icons/experience/hawaii.png"
 	  },
 	  {
 		company: t("experience.technician.company"),

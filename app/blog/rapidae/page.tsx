@@ -194,7 +194,7 @@ export default function RapidaePage() {
                 {content[language].selfAttentionText}
               </p>
               <div className="bg-black/30 rounded p-4 font-mono text-sm text-green-300">
-                Attention(Q, K, V) = softmax(QK^T/√d_k)V
+                ...
               </div>
             </div>
 

@@ -12,23 +12,11 @@ export default function AboutSection() {
 
   const renderBioWithLinks = (text: string) => {
     // Replace link placeholders with actual JSX links
-    const processedText = text
-      .replace(
-        /\[Eluter\]/g,
-        '<a href="https://www.eluter.com/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-white/80 underline underline-offset-2 transition-colors">Eluter</a>',
-      )
-      .replace(
-        /\[DESAFIA\]/g,
-        '<a href="https://desafia.tech/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-white/80 underline underline-offset-2 transition-colors">DESAFIA</a>',
-      )
-      .replace(
-        /\[Polkadot Blockchain Academy\]/g,
-        '<a href="https://pbax.polkadot.academy/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-white/80 underline underline-offset-2 transition-colors">Polkadot Blockchain Academy</a>',
-      )
-      .replace(
-        /\[Devconnect\]/g,
-        '<a href="https://devconnect.org/" target="_blank" rel="noopener noreferrer" class="text-white hover:text-white/80 underline underline-offset-2 transition-colors">Devconnect</a>',
-      )
+    let processedText = text
+      // Replace English bolded Services marker: *Services* or *Services section*
+      .replace(/\*Services\*/g, '<a href="#services" class="text-white hover:text-white/80 underline underline-offset-2 transition-colors">Services</a>')
+      // Replace Spanish bolded Servicios marker: *Servicios* or "sección de *Servicios*"
+      .replace(/\*Servicios\*/g, '<a href="#services" class="text-white hover:text-white/80 underline underline-offset-2 transition-colors">Servicios</a>')
 
     // Process bold text
     const parts = processedText.split(/(\*.*?\*)/g)
@@ -92,7 +80,7 @@ export default function AboutSection() {
 
               <div className="flex justify-center lg:justify-start items-center gap-6 mt-8">
                 <a
-                  href="mailto:costanahuel@example.com"
+                  href="mailto:costanahuel@uniovi.es"
                   className="hover:opacity-80 transition-opacity p-3 rounded-full border border-white/20 hover:border-white/40 hover:scale-105 transition-all duration-300"
                 >
                   <Mail className="w-8 h-8 text-white" />

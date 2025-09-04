@@ -45,7 +45,7 @@ export default function Footer() {
               </div>
               <div
                 className="text-white/75 hover:text-white transition-colors cursor-pointer"
-                onClick={() => scrollToSection("talks")}
+                onClick={() => scrollToSection("services")}
               >
                 {t("footer.about.talks")}
               </div>
@@ -95,7 +95,7 @@ export default function Footer() {
               <Button
                 size="icon"
                 className="glass glass-hover rounded-full border-white/20 hover:border-white/40"
-                onClick={() => window.open("mailto:costanahuel@example.com", "_blank")}
+                onClick={() => window.open("mailto:costanahuel@uniovi.es", "_blank")}
               >
                 <Image src="/icons/mail.svg" alt="Mail" width={20} height={20} className="w-5 h-5" />
               </Button>

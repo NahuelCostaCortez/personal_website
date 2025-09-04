@@ -19,7 +19,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 opacity-10"
         style={{
-          backgroundImage: "url(/images/background.jpg)",
+          backgroundImage: "url(/images/background2.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -36,6 +36,9 @@ export default function HeroSection() {
                 width={40}
                 height={40}
                 className="rounded-full sm:w-[60px] sm:h-[60px]"
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,..."
+                loading="lazy" // Explicit lazy loading
               />
             </div>
             <div className="text-center">

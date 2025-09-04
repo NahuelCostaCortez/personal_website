@@ -90,7 +90,7 @@ export default function InnovationProjectsPage() {
                     <p className="text-white/80 mt-2">{t("teaching.innovationProjects.UO177745.title")}</p>
                     <div className="flex flex-wrap items-center gap-4 mt-3 text-sm text-white/80">
                       <div>
-                        <span className="font-semibold text-white">{t("teaching.innovationProjects.labels.role")}:</span> Team member
+                        <span className="font-semibold text-white">{t("teaching.innovationProjects.labels.role")}:</span> {t("teaching.innovationProjects.actions.rolemember")}
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="font-semibold text-white">{t("teaching.innovationProjects.labels.publications")}:</span>
@@ -114,7 +114,7 @@ export default function InnovationProjectsPage() {
                     <p className="text-white/80 mt-2">{t("teaching.innovationProjects.RAGAssistant.title")}</p>
                     <div className="flex flex-wrap items-center gap-4 mt-3 text-sm text-white/80">
                       <div>
-                        <span className="font-semibold text-white">{t("teaching.innovationProjects.labels.role")}:</span> Principal Investigator
+                        <span className="font-semibold text-white">{t("teaching.innovationProjects.labels.role")}:</span> {t("teaching.innovationProjects.actions.roleleader")}
                       </div>
                     </div>
                   </div>

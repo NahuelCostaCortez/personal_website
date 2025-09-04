@@ -68,7 +68,7 @@ export default function ServicesSection() {
       name: { en: "Pablo Delgado Cuesta", es: "Pablo Delgado Cuesta" },
       company: "Jefe de Proyectos en Dirección Gral. de Seguridad y Estrategia Digital del Principado de Asturias",
       review: {
-        en: "Thank Nahuel. Not all speakers master the topic and also have a clear orientation to the student. I hope they count on you for future courses!",
+        en: "Thanks Nahuel. Not all speakers master the topic and also have a clear orientation to the student. I hope they count on you for future courses!",
         es: "Gracias Nahuel. No siempre hay ponentes que dominen el tema y además tengan una clara orientación al alumnado. ¡Espero que cuenten contigo para futuros cursos!"
       },
       image: "/placeholder-user.jpg"
@@ -78,7 +78,7 @@ export default function ServicesSection() {
       name: { en: "Paloma Sainz", es: "Paloma Sainz" },
       company: "Instituto Asturiano de Administración Pública",
       review: {
-        en: "It was my first time dealing with this world of AI, and although I'm very bad, I really liked the course and it opened up possibilities that I didn't have. Thank you for the classes, they were complete, fun, and very useful.",
+        en: "It was my first time dealing with this world of AI, and although I'm very bad, I really liked the course and it opened up possibilities that I didn't know I had. Thank you for the classes, they were complete, fun, and very useful.",
         es: "Es la primera vez que tomaba contacto con este mundo de la IA, y aunque estoy muy pez, me ha gustado mucho el curso y me ha abierto posibilidades con las que no contaba. Muchas gracias por las clases, han sido completas, amenas, y muy útiles."
       },
       image: "/placeholder-user.jpg"
@@ -88,8 +88,8 @@ export default function ServicesSection() {
 		name: { en: "Alejandro Cabrales González", es: "Alejandro Cabrales González" },
 		company: "Dirección General de Estrategia Digital e Inteligencia Artificial, Principado de Asturias",
 		review: {
-			en: "Congratulations on the good course you are offering. There are things I already know about this subject, but I have definitely discovered thanks to you other many things. Thank you for everything.",
-			es: "Felicitarte por el buen curso que nos estas ofreciendo. Hay cosas que ya conozco de toda esta materia, pero sí que he descubierto gracias ti otras muchas. Gracias por todo."
+			en: "Congratulations on the good course you are offering. There are things I already knew about this subject, but I have definitely discovered thanks to you other many things. Thank you for everything.",
+			es: "Felicitarte por el buen curso que nos estas ofreciendo. Hay cosas que ya conocía de toda esta materia, pero sí que he descubierto gracias ti otras muchas. Gracias por todo."
 		},
 		image: "/placeholder-user.jpg"
 	},

@@ -103,7 +103,7 @@ export const servicesData: Service[] = [
     slug: "soco-23",
     title: {
       en: "18th International Conference on Soft Computing Models in Industrial and Environmental Applications",
-      es: "Taller de Fundamentos de IA"
+      es: "18ª Conferencia Internacional sobre Modelos de Computación Suave en Aplicaciones Industriales y Ambientales"
     },
     description: {
       en: "TO-DO",
@@ -132,7 +132,7 @@ export const servicesData: Service[] = [
     slug: "generative-ai-benefits-and-limitations",
     title: {
       en: "Generative AI - Benefits and limitations",
-      es: "Taller de Fundamentos de IA"
+      es: "IA Generativa - Beneficios y limitaciones"
     },
     description: {
       en: "TO-DO",
@@ -219,7 +219,7 @@ export const servicesData: Service[] = [
     slug: "fuzzy-ieee-24",
     title: {
       en: "IEEE World Congress on Computational Intelligence",
-      es: "Generación de imágenes con IA"
+      es: "Congreso Mundial de IEEE sobre Inteligencia Computacional"
     },
     description: {
       en: "TO-DO",
@@ -248,7 +248,7 @@ export const servicesData: Service[] = [
     slug: "total-antor",
     title: {
       en: "TotalEnergies Chair | AI: Present, future and applications to society",
-      es: "Generación de imágenes con IA"
+      es: "Cátedra TotalEnergies | IA: Presente, futuro y aplicaciones en la sociedad"
     },
     description: {
       en: "TO-DO",
@@ -277,7 +277,7 @@ export const servicesData: Service[] = [
     slug: "audit-consejeria-salud",
     title: {
       en: "Database audit for a future public health information system",
-      es: "Generación de imágenes con IA"
+      es: "Auditoría de bases de datos para un futuro sistema de información en salud pública"
     },
     description: {
       en: "TO-DO",
@@ -306,7 +306,7 @@ export const servicesData: Service[] = [
     slug: "acg-ingenieria",
     title: {
       en: "Introductory course on generative Artificial Intelligence",
-      es: "Generación de imágenes con IA"
+      es: "Curso introductorio sobre Inteligencia Artificial generativa"
     },
     description: {
       en: "TO-DO",
